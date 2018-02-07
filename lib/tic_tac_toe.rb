@@ -104,13 +104,10 @@ def winner
   #  congratulate the winner
   #else if the game was a draw
     #tell the players it ended in a draw
-  #end
+  
   def play
       turn until over?
       puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
     end
   end
-#end
-#end
-#end
-#end
+
