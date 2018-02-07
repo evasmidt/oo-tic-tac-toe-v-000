@@ -105,9 +105,8 @@ def winner
   #else if the game was a draw
     #tell the players it ended in a draw
   
-  def play
-      turn until over?
-      puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+def play
+  turn until over?
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
     end
-  end
-
+end
